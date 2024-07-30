@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+.dropdowns {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+select {
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.controls button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background-color: #0056b3;
+}
+
+.controls button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.transcription {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.transcription p {
+  margin: 10px 0;
+}
+
+.error {
+  color: red;
+  margin-top: 20px;
+}
+
+.recording-status {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+.recording-status.active {
+  color: green;
+}
+
+.recording-status.inactive {
+  color: gray;
+}
